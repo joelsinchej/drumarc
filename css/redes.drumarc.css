@@ -1,7 +1,6 @@
 body {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(233, 233, 233);
 }
-
 
 #rdm-container {
     position: relative;
@@ -19,7 +18,7 @@ body {
     -webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
     font-weight: bold;
-    color: #dbdbdb;
+    color: rgb(73, 73, 73);
 }
 
 #rdm-container > ul {
@@ -35,18 +34,24 @@ body {
 #rdm-container ul > li {  
     float: left;
     width: 48%;
-    background: #fff;
-    margin: 1%;
+    margin: 8px 1%;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+    display: block; 
+    background: #fff;
+    cursor: pointer;
+}
+
+#rdm-container ul > li > a {
+    display: block;
 }
 
 
 .rdm-iconos {
     width: 70px;
     float: left;
-    margin: 10px 10px 10px 8px;
+    margin: 0 10px 10px 8px;
 }
 
 .rdm-iconos-a, .rdm-iconos-a:hover {
@@ -59,6 +64,7 @@ body {
 .rdm-iconos-a > div {
     text-align: center;
     margin-top: 10px;
+    display: block;
 }
 
 .rdm-iconos-a > div > h5 {
@@ -87,21 +93,45 @@ body {
 }
 
 
-#rdm-icon-facebook > div > h5,  #rdm-icon-facebook > div > span {
+#rdm-icon-facebook div > h5,  #rdm-icon-facebook div > span {
     color: #393bb6;
 }
 
-#rdm-icon-instagram > div > h5, #rdm-icon-instagram > div > span{
+#rdm-icon-instagram div > h5, #rdm-icon-instagram div > span{
     color: #a3088f;
 }
 
-#rdm-icon-whatsapp > div > h5, #rdm-icon-whatsapp > div > span {
+#rdm-icon-whatsapp div > h5, #rdm-icon-whatsapp div > span {
     color: #1fa36c;
 }
 
-#rdm-icon-youtube > div > h5, #rdm-icon-youtube > div > span {
+#rdm-icon-youtube div > h5, #rdm-icon-youtube div > span {
     color: #e21f1f;
 }
+
+#rdm-icon-facebook { 
+    border: 1px solid #393bb6;
+}
+
+#rdm-icon-instagram {
+    border: 1px solid #a3088f;
+}
+
+#rdm-icon-whatsapp {
+    border: 1px solid #1fa36c;
+}
+
+#rdm-icon-youtube {
+    border: 1px solid #e21f1f;
+}
+
+#rdm-icon-drumarc {
+    border: 1px solid #000;
+}
+
+
+
+
 
 @media only screen and (max-width: 1148px) { 
     #rdm-container ul > li {  
@@ -114,14 +144,14 @@ body {
 
 @media only screen and (max-width: 820px) { 
     #rdm-container {
-        width: 80%;
+        width: 75%;
     }    
 }
 
 
 @media only screen and (max-width: 480px) { 
     #rdm-container {
-        width: 90%;
+        width: 85%;
     }
 }
 
@@ -132,3 +162,49 @@ body {
     }
 
 }
+
+
+
+
+
+
+
+#rdm-icon-facebook {
+    -webkit-animation: blob 5s infinite forwards;
+            animation: blob 5s infinite forwards;
+    -webkit-transform-origin: 70% 80%;
+            transform-origin: 70% 80%;
+  }
+  
+  @-webkit-keyframes blob {
+    25% {
+      d: path("M 90 210 C 90 180 110 160 130 160 C 160 160 180 140 200 130 C 230 120 270 100 290 140 C 310 170 340 100 360 140 C 370 160 390 180 390 210 C 390 240 380 290 350 280 C 330 270 300 280 280 290 C 260 300 230 300 220 290 C 200 270 160 310 140 280 C 130 260 90 240 90 210 ");
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    50% {
+      d: path("M 90 210 C 90 180 100 150 120 130 C 150 100 180 140 200 130 C 230 120 270 100 290 140 C 300 160 330 130 360 140 C 390 150 390 180 390 210 C 390 240 380 300 350 280 C 330 270 320 230 280 260 C 260 280 220 310 200 290 C 180 270 160 280 140 280 C 110 280 90 240 90 210");
+    }
+    75% {
+      d: path("M 90 210 C 90 180 110 180 130 170 C 150 160 170 130 200 130 C 240 130 260 150 290 140 C 310 130 340 120 360 140 C 380 160 390 180 390 210 C 390 240 380 260 350 270 C 320 280 290 270 270 260 C 240 250 230 280 210 290 C 180 310 130 300 110 280 C 90 260 90 240 90 210");
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes blob {
+    25% {
+      d: path("M 90 210 C 90 180 110 160 130 160 C 160 160 180 140 200 130 C 230 120 270 100 290 140 C 310 170 340 100 360 140 C 370 160 390 180 390 210 C 390 240 380 290 350 280 C 330 270 300 280 280 290 C 260 300 230 300 220 290 C 200 270 160 310 140 280 C 130 260 90 240 90 210 ");
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    50% {
+      d: path("M 90 210 C 90 180 100 150 120 130 C 150 100 180 140 200 130 C 230 120 270 100 290 140 C 300 160 330 130 360 140 C 390 150 390 180 390 210 C 390 240 380 300 350 280 C 330 270 320 230 280 260 C 260 280 220 310 200 290 C 180 270 160 280 140 280 C 110 280 90 240 90 210");
+    }
+    75% {
+      d: path("M 90 210 C 90 180 110 180 130 170 C 150 160 170 130 200 130 C 240 130 260 150 290 140 C 310 130 340 120 360 140 C 380 160 390 180 390 210 C 390 240 380 260 350 270 C 320 280 290 270 270 260 C 240 250 230 280 210 290 C 180 310 130 300 110 280 C 90 260 90 240 90 210");
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  
