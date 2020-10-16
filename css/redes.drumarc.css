@@ -5,15 +5,10 @@ body {
 
 #rdm-container {
     position: relative;
-    margin: -50px auto 0 auto;
-    padding: 100px 0 50px 0;
+    margin: 50px auto 0 auto;
     display: block;
     width: 50%;
     text-align: center;
-    background-color: azure;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
 }
 
 .rdm-iconos {
