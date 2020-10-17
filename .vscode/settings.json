@@ -1,0 +1,14 @@
+{
+    "compile-hero.generate-minified-css": true,
+    "compile-hero.generate-minified-html": true,
+    "compile-hero.generate-minified-javascript": true,
+    "compile-hero.jade-output-directory": "./public",
+    "compile-hero.javascript-output-directory": "./js",
+    "compile-hero.less-output-directory": "./less",
+    "compile-hero.pug-output-directory": "./pug",
+    "compile-hero.sass-output-directory": "./sass",
+    "compile-hero.scss-output-directory": "./scss",
+    "compile-hero.typescript-output-directory": "./ts",
+    "compile-hero.typescriptx-output-directory": "./tsx",
+    "compile-hero.ignore": ""
+}
