@@ -3,7 +3,7 @@ doctype html
 -var LANG = 'es'
 
 //-@ variables - HEAD
--var WWWPATH = '..';
+-var WWWPATH = '.';
 -var FAVICON = 'https://www.drumarc.com/favicon.ico';
 -var FONTS = ['https://fonts.googleapis.com/css?family=Shadows+Into+Light'];
 
@@ -76,7 +76,7 @@ html(lang=LANG)
       ul
         each R in REDES   
           li(id=`rdm-icon-${R.title}`)
-            a(class="rdm-iconos-a", href=`https:\\${R.url}`) 
+            a(class="rdm-iconos-a", href=`https://${R.url}`) 
               div !{R.svg}
                 h5 #{R.title}
                 p #{R.description}
