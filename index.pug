@@ -81,10 +81,9 @@ html(lang=LANG)
               div !{R.svg}
                 h5 #{R.title}
                 p #{R.description}
-                span 
-                  if R.phone
-                    #{R.phone}
-                  else 
-                    #{R.url}
+                if R.phone
+                  span #{R.phone}
+                else 
+                  span #{R.url}
 
 
