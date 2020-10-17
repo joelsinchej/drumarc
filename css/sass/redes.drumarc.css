@@ -12,7 +12,7 @@ body {
 }
 
 #rdm-container > h3 {
-  font-family: "Shadows Into Light", cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
   -webkit-transform: rotate(-7deg);
   transform: rotate(-7deg);
@@ -131,32 +131,35 @@ body {
   #rdm-container ul > li {
     width: 100%;
   }
-
   #rdm-container {
     width: 50%;
   }
 }
+
 @media only screen and (max-width: 820px) {
   #rdm-container {
     width: 75%;
   }
 }
+
 @media only screen and (max-width: 480px) {
   #rdm-container {
     width: 85%;
   }
 }
+
 @media only screen and (max-width: 360px) {
   #rdm-container {
     width: 95%;
   }
 }
+
 .bg {
   animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
   bottom: 0;
   left: -50%;
-  opacity: 0.5;
+  opacity: .5;
   position: fixed;
   right: -50%;
   top: 0;
@@ -201,6 +204,7 @@ h3 {
     transform: rotate(0deg);
   }
 }
+
 @keyframes blob {
   25% {
     d: path("M 90 210 C 90 180 110 160 130 160 C 160 160 180 140 200 130 C 230 120 270 100 290 140 C 310 170 340 100 360 140 C 370 160 390 180 390 210 C 390 240 380 290 350 280 C 330 270 300 280 280 290 C 260 300 230 300 220 290 C 200 270 160 310 140 280 C 130 260 90 240 90 210 ");
@@ -216,6 +220,7 @@ h3 {
     transform: rotate(0deg);
   }
 }
+
 @keyframes slide {
   0% {
     transform: translateX(-25%);
