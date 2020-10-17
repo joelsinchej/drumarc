@@ -1,0 +1,1 @@
+var cadena="hola mundo";";
